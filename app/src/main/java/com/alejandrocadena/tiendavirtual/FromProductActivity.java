@@ -57,7 +57,7 @@ public class FromProductActivity extends AppCompatActivity {
                     return;
                 }
 
-                product myNewProduct = new product("Computador","Descripcion",5000.0,"No hay por ahora");
+                Product myNewProduct = new Product("Computador","Descripcion",5000.0,"No hay por ahora");
 
 
 

@@ -1,15 +1,15 @@
 package com.alejandrocadena.tiendavirtual;
 
-public class product {
+public class Product {
     private String name;
     private String description;
     private Double price;
     private String urlImage;
 
-    public product() {
+    public Product() {
     }
 
-    public product(String name, String description, Double price, String urlImage) {
+    public Product(String name, String description, Double price, String urlImage) {
         this.name = name;
         this.description = description;
         this.price = price;
